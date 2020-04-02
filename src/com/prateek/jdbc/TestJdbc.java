@@ -12,7 +12,6 @@ public class TestJdbc {
 		String password = "prateek@123";
 
 		try {
-
 			System.out.println("Connecting to MySql Database" + jdbcUrl);
 
 			Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
