@@ -15,6 +15,7 @@ public class TestJdbc {
 			System.out.println("Connecting to MySql Database" + jdbcUrl);
 
 			Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
+			connection.close();
 
 			System.out.println("Connection Successful");
 
