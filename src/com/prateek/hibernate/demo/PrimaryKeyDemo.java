@@ -29,7 +29,7 @@ public class PrimaryKeyDemo {
 			session.beginTransaction();
 
 			// save the student object
-			System.out.println("Saving the student record...");
+			System.out.println("Saving the students record...");
 
 			session.save(student1);
 			session.save(student2);
